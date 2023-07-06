@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: transparent;
+            z-index: 1;
+        }
+
+        .logo {
+            display: inline-block;
+            padding-left: 95px;
+            padding-top: 45px;
+        }
+
+        .logo img {
+            height: 220px;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            position: relative;
+
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        #start {
+            height: 80vh;
+            background-image: url("1.jpg");
+            background-size: cover;
+            background-position: top;
+        }
+
+        #start .content {
+            text-align: left;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            height: 100%;
+            padding-bottom: 10vh;
+        }
+        
+        #tagline {
+            height: 30vh;
+            background-color: #03033f;
+        }
+
+        #tagline .content {
+            color: #ffffffa2;
+        }
+
+        #about {
+            height: 80vh;
+            background-image: url("2.jpg");
+            background-size: cover;
+            background-position: top; 
+        }
+
+        #about .content {
+            text-align: left;
+            color: #313131c9;
+        }
+        
+
+        #contact {
+            height: 50vh;
+            background-color: #fff;
+            display: flex;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        #contact .half {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #contact .left {
+            background-image: url("3.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-right: 1px;
+        }
+
+        #contact .right {
+            background-image: url("4.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 1px;
+
+        }
+
+        #contact .content {
+            color: #ffffff;
+            text-align: center;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        #contact h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        #contact p {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        #space{
+            height: 10vh;
+            background-color: #ffffff;
+        } 
+
+        #footer{
+            height: 20vh;
+            background-color: #ffffff;
+        }   
+
+        #footer.content {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+        }
+
+        .content p {
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </header>
+    
+    <main>
+        <section id="start">
+            <div class="content">
+                <h1>Turtles are endengared.<br>
+                    Let's do our part to save them.</h1>
+            </div>
+        </section>
+
+        <section id="tagline">
+            <div class="content">
+                <h1> We are a dedicated team of university students trying to help turtle conservations locate and protect turtle nests by developing machine learning models. 
+                </h1>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="content">
+                <h1>About Project Turtle <br></h1>
+                <p><br>We are a dedicated team of university students who are passionately working towards the development of highly intricate machine learning models. Our primary goal is to contribute to the noble cause of turtle conservation in the Emirate of Abu Dhabi. By leveraging our expertise in machine learning, we aim to create cutting-edge solutions that can assist in locating turtle nests, thereby aiding the conservation efforts in the region. 
+                    <br><br> Through extensive research and collaboration, we are developing intricate machine learning models that possess the capability to accurately identify and locate turtle nests. These models are designed to analyze various data sources, including satellite imagery, drone footage, and historical nesting patterns, to identify potential nesting sites. By leveraging pattern recognition and data analysis techniques, our models can identify subtle features and indicators that may indicate the presence of turtle nests.
+                </p>
+            </div>
+        </section>
+
+        <section id="space">
+        </section>
+
+        <section id="contact">
+            <div class="half left">
+                <div class="content">
+                    <h1>Partner With Us</h1>
+                    <p>Details on working with us will be realsed soon!</p>
+                </div>
+            </div>
+            <div class="half right">
+                <div class="content">
+                    <h1>Machine Learning Models</h1>
+                    <p> 
+                        <!-- We are committed to making our models accessible and user-friendly for conservationists and researchers involved in turtle conservation.  -->
+                        <!-- We aim to develop intuitive interfaces and provide comprehensive documentation to facilitate the effective utilization of our models.  -->
+
+                        Access to our models is cooming soon!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="content">
+                <p>projecturtle.org</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
+
